@@ -1,9 +1,19 @@
+body {
+	background-image: url("/home/andy/Website/memphis-mini-dark/memphis-mini-dark.png");
+	color: white;
+}
+
+.sidebar_menu {
+	list-style-type: none;
+	/*background-image: url("/home/andy/Website/memphis-mini/memphis-mini.png")*/
+}
+
 ul {
-	display: block;
+	/*display: block;*/
 	margin: 0;
 	padding: 0;
 	width: 200px;
-	background-color: gray;
+	background-image: url("/home/andy/Website/memphis-mini/memphis-mini.png");
 	color: white;
 	list-style-type: none;
 	height: 100%;
@@ -13,12 +23,14 @@ ul {
 li {
 	text-align: center;
 	padding: 50px;
+	text-decoration: none;
 }
 
 li a {
 	display: block;
 	color: black;
 	padding: 20px;
+	text-decoration: none;
 }
 
 li a:hover {
