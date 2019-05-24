@@ -1,3 +1,28 @@
-li {
+ul {
 	display: block;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: gray;
+	color: white;
+	list-style-type: none;
+	height: 100%;
+	position: fixed;
+}
+
+li {
+	text-align: center;
+	padding: 50px;
+}
+
+li a {
+	display: block;
+	color: black;
+	padding: 20px;
+}
+
+li a:hover {
+	background-color: white;
+	color: black;
+	width: 100%;
 }
